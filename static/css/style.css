@@ -1,0 +1,190 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30px;
+   
+}
+.bodyWithNoFooter{
+ margin-left: 30px;
+    margin-right: 30px;
+}
+
+#logo {
+    height: 38.020076751708984px;
+width: 181.72946166992188px;
+
+
+}
+
+#banner{
+    margin-top: 139px;
+  
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+#midBox{
+    width: 60%;
+   
+}
+.headingText{
+    position: relative;
+    bottom: 30px;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.imgDiv{
+    
+}
+.headingMidText{
+    
+    
+    color: #3D3D3D;
+    align-items: center;
+    font-weight: 500;
+    font-size: 22px;
+    margin-bottom: 50px;
+}
+
+#emailInput{
+    background: #F7FFEF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+#emailSubmitBtn{
+    font-size: 16px;
+    padding-left: 50px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-right: 50px;
+    background: #86C64D;
+border-radius: 10px;
+}
+
+.btnRow{
+    margin-top: 68px;
+    margin-left:57px ;
+    margin-bottom: 80px;
+}
+
+.videoBlock{
+    background: #F6F6F6;
+    border-radius: 20px;
+    padding-bottom: 67px;
+    margin-bottom: 100px;
+    
+}
+
+.selected{
+    width: 168px;
+    background: #86C64D;
+    box-shadow: 0px 4px 12px rgba(134, 198, 77, 0.24);
+    border-radius: 10px;
+    padding: 21px 50px;
+    font-size: 16px;
+    color: white;
+}
+
+.selected:hover{
+    background: #86C64D;
+    
+}
+
+.unselected:hover{
+        
+background: #DBDBDB;
+}
+.unselected{
+    width: 196px;
+    background: #DBDBDB;
+    font-size: 16px;
+    padding: 21px 50px;
+    
+    border-radius: 10px;
+}
+
+.videoPlayBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 424px;
+    background: #D9D9D9;
+    border-radius: 20px;
+    margin-left: 57px;
+}
+
+
+.videoTitle{
+    font-size: 36px;
+    font-weight: 600;
+}
+.VideoData{
+    margin-left: 92px;
+}
+.videoDes{
+    margin-top: 32px;
+    font-size: 22px;
+    font-weight: 400;
+    color: #3D3D3D;
+}
+
+.aboutBlock{
+    background: #F6F6F6;
+    border-radius: 20px;
+}
+.innnerAboutBlock{
+    margin-left: 56px;
+    padding-top: 51px;
+    margin-bottom: 84px;
+    
+}
+.aboutHead{
+    margin-bottom: 32px;
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.aboutDes{
+    margin-top: 30px;
+width: 750px;
+    font-weight: 400;
+    font-size: 22px;
+
+    color: #3D3D3D;
+}
+
+.aboutDesBlock{
+    padding-bottom: 87px;
+}
+
+.footerBlock{
+    
+    height: 228px;
+    background: #171717;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.footerImg{
+    width: 170px;
+height: 35.57px;
+}
+
+.followText{
+    font-weight: 500;
+font-size: 24px;
+color: white;
+}
+
+@media (max-width: 768px) {
+    #nav{
+        display: flex;
+        justify-content: center !important;
+    }
+}
