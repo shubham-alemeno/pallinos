@@ -5,6 +5,10 @@ body {
    
 }
 
+.mobileBannerImg{
+    display: none;
+}
+
 .bodyWithNoFooter{
  margin-left: 30px;
     margin-right: 30px;
@@ -27,6 +31,8 @@ width: 181.72946166992188px;
 
 #midBox{
     width: 60%;
+    margin-left: 30px;
+    margin-right: 30px;
    
 }
 
@@ -41,7 +47,8 @@ width: 181.72946166992188px;
     border: 1px solid red;
 }
 .headingMidText{
-    
+   padding-left: 55px;
+   padding-right: 55px;
     
     color: #3D3D3D;
     align-items: center;
@@ -51,16 +58,21 @@ width: 181.72946166992188px;
 }
 
 #emailInput{
+    width: 400px;
     background: #F7FFEF;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 10px;
+    height: 71px;
     padding-left: 40px;
     padding-top: 20px;
     padding-bottom: 20px;
 
 }
 
+
+
 #emailSubmitBtn{
+    height: 71px;
     font-size: 16px;
     padding-left: 50px;
     padding-top: 18px;
@@ -68,6 +80,7 @@ width: 181.72946166992188px;
     padding-right: 50px;
     background: #86C64D;
 border-radius: 10px;
+border: 0px solid white;
 }
 
 .btnRow{
@@ -75,16 +88,19 @@ border-radius: 10px;
     display: flex !important;
         gap:3% ;
         
-    margin-top: 68px;
+    
     margin-left:57px ;
     margin-bottom: 80px;
+
 }
 
 .videoBlock{
     background: #F6F6F6;
     border-radius: 20px;
+    padding-top: 68px;
     padding-bottom: 67px;
     margin-bottom: 100px;
+    
     
 }
 
@@ -120,6 +136,7 @@ border-radius: 10px;
     color: white;
 }
 .unselected{
+    font-weight: bolder;
     width: 196px;
     background: #DBDBDB;
     font-size: 16px;
@@ -202,6 +219,24 @@ color: white;
 }
 
 @media (max-width: 768px) {
+   
+
+    .mobileBannerImg{
+        display: block;
+        display: flex;
+        margin-bottom: -30px;
+        margin-top: 70px;
+        justify-content: center;
+        gap: 18px;
+
+    }
+    .mobileImg{
+        height: 176px;
+    }
+    .mobileImg2{
+        position: relative;
+        top: 30px;
+    }
     #nav{
         display: flex;
         justify-content: center !important;
@@ -247,10 +282,14 @@ margin: 25px 25px;
     }
 
     .videoBlock{
+        padding-top: 50px;
         border-radius: 0px;
         border: 0px white solid;
         padding-left: 25px;
         padding-right: 25px;
+      
+        padding-bottom: 50px;
+        
     }
 
     .videoPlayBox{
@@ -279,10 +318,10 @@ font-size: 20px;
     }
 
     .btnRow{
-        gap:13% ;
-        padding-top: 40px;
+        gap:auto ;
+     margin-bottom: 50px;
         margin-left:0px !important ;
-        margin-bottom: 50px;
+       
     }
 
     .selected{
@@ -297,8 +336,74 @@ font-size: 20px;
         font-size: 11px;
     }
 
+    .followText{
+    
+    font-size: 14px;
+    
+    }
+    .footerImg{
+        width: 139px;
+    height: 29px;
+    }
 
-  
+    .footerIcon{
+        height: 29px;
+        width: 29px;
+    }
+
+    .followIcon{   
+        gap: 7px;
+       }
+
+       .bannerImgDes{
+        display:none;        
+       }
+.headingText{
+   
+    width: 90%;
+    margin: auto;
+    font-size: 22px;
+}
+.headingMidText{
+    margin: auto;
+    width: 90%;
+       
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+#emailInput{
+    
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 0px;
+    font-size: 12px !important
+    ;
+    height: 50px;
+}
+
+#emailSubmitBtn{
+    height: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    width: auto;
+    font-size: 10px;
+}
+
+
+#midBox{
+    margin: 0px;
+width: 100%;
+
+}
+
+#banner{
+    
+    margin-bottom: 55px;
+}
+
+
 
        
     
