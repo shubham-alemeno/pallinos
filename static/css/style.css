@@ -5,6 +5,38 @@ body {
    
 }
 
+.content{
+    display: none;
+   
+}
+
+.activeContent{
+    display: flex;
+    justify-content: center;
+}
+
+.content-1-img{
+    background-size: cover; 
+    background-image: url("../../assets/images/bg-1.png");
+}
+
+.content-2-img{
+    background-size: cover; 
+    background-image: url("../../assets/images/bg-2.png");
+}
+.content-3-img{
+    background-size: cover; 
+    background-image: url("../../assets/images/bg-3.png");
+}
+.content-4-img{
+    background-size: cover; 
+    background-image: url("../../assets/images/bg-4.png");
+}
+.content-5-img{
+    background-size: cover; 
+    background-image: url("../../assets/images/bg-5.png");
+}
+
 .mobileBannerImg{
     display: none;
 }
@@ -121,27 +153,18 @@ border: 0px solid white;
     color: white;
     border: 0px solid white;
 }
-.selected:active {
-
-    color:green;
-    
+.unselected.active {
+    background: #86C64D;
+    color:white;    
     }
 
 .selected:hover{
     background-color: #86C64D;
-
     
 }
 
-.unselected:active{
- background-color: #DBDBDB;
-}
 
-.unselected:hover{
-        
-    background: #DBDBDB;
-    color: white;
-}
+
 .unselected{
     font-weight: bolder;
     width: 196px;
@@ -157,7 +180,7 @@ border: 0px solid white;
     align-items: center;
     justify-content: center;
     height: 424px;
-    background: #D9D9D9;
+    
     border-radius: 20px;
     margin-left: 57px;
 }
@@ -240,6 +263,10 @@ color: white;
     justify-content: center;
     gap:17px
    }
+
+   .active {
+    display: block;
+}
 
 @media (max-width: 768px) {
     *{
@@ -358,6 +385,7 @@ font-size: 20px;
     }
 
     .btnRow{
+        flex-wrap: wrap;
         gap:auto ;
      margin-bottom: 50px;
         margin-left:0px !important ;
@@ -365,12 +393,14 @@ font-size: 20px;
     }
 
     .selected{
+        margin-bottom: 10px;
         width: auto;         
         padding: 12px 24px;
         font-size: 11px;
         
     }
     .unselected{
+        margin-bottom: 10px;
         width: auto;         
         padding: 12px 24px;
         font-size: 11px;
@@ -413,7 +443,7 @@ font-size: 20px;
 }
 #emailInput{
     
-    width: 218px;
+    width: 100%;
     padding-left: 10px;
     padding-right: 0px;
     font-size: 12px !important    ;

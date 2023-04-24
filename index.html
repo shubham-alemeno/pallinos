@@ -49,7 +49,6 @@
                         <div class=""> <input type="email" class="form-control" id="emailInput"
                                 aria-describedby="emailHelp" placeholder="Enter your email"></div>
                         <div class=""><button type="submit" class="btn btn-primary" id="emailSubmitBtn">Request
-                                A
                                 Demo</button></div>
                     </div>
                 </div>
@@ -62,20 +61,26 @@
             <!-- video block  -->
             <div class="videoBlock">
                 <div class="btnRow ">
-                    <div class="  "><button type="submit" class="btn selected" id="btn1">MyCube
+                    <div class="  "><button type="submit" onclick="showContent(1)" class="unselected active"
+                            id="btn1">MyCube
                         </button></div>
-                    <div class=" "> <button type="submit" class="btn  unselected" id="btn2">HealthSnap
+                    <div class=" "> <button type="submit" onclick="showContent(2)" class="unselected"
+                            id="btn2">HealthSnap
                         </button></div>
-                    <div class=""> <button type="submit" class="btn unselected" id="btn3">MyLab
+                    <div class=""> <button type="submit" onclick="showContent(3)" class="unselected" id="btn3">MyLab
+                        </button></div>
+                    <div class=" "> <button type="submit" onclick="showContent(4)" class="unselected" id="btn4">MyLab1
+                        </button></div>
+                    <div class=""> <button type="submit" onclick="showContent(5)" class="unselected" id="btn5">MyLab2
                         </button></div>
 
 
                 </div>
-
-                <div class="row justify-content-center">
+                <!-- ------------btn 1 content  -->
+                <div class="row justify-content-center content activeContent" id="content1">
                     <!-- //video play block  -->
                     <div class="col-md-6">
-                        <div class="card videoPlayBox">
+                        <div class="card videoPlayBox content-1-img">
                             <div><img src="assets/images/play-circle.png" class="fluid-img playIcon" alt=""></div>
                         </div>
                     </div>
@@ -84,6 +89,39 @@
                         <div class="VideoData">
                             <div>
                                 <p class="text-start videoTitle">MyCube Application</p>
+                            </div>
+                            <div>
+                                <p class="text-start videoDes">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium facere
+                                    perspiciatis inventore suscipit sit in quo nesciunt reprehenderit officiis
+                                    voluptatum
+                                    impedit, consequatur saepe beatae molestias nisi delectus illo voluptatem.
+                                    Voluptatibus
+                                    libero harum eos doloribus nulla atque quisquam obcaecati sed cum? Lorem
+
+
+                                </p>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- ------------- btn2 content -->
+                <div class="row justify-content-center content " id="content2">
+                    <!-- //video play block  -->
+                    <div class="col-md-6">
+                        <div class="card videoPlayBox content-2-img">
+                            <div><img src="assets/images/play-circle.png" class="fluid-img playIcon" alt=""></div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="VideoData">
+                            <div>
+                                <p class="text-start videoTitle">HealthSnap Application</p>
                             </div>
                             <div>
                                 <p class="text-start videoDes">
@@ -105,6 +143,112 @@
                     </div>
 
                 </div>
+
+                <!-- -------------btn3 content  -->
+                <div class="row justify-content-center content " id="content3">
+                    <!-- //video play block  -->
+                    <div class="col-md-6">
+                        <div class="card videoPlayBox content-3-img">
+                            <div><img src="assets/images/play-circle.png" class="fluid-img playIcon" alt=""></div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="VideoData">
+                            <div>
+                                <p class="text-start videoTitle">MyLab Application</p>
+                            </div>
+                            <div>
+                                <p class="text-start videoDes">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium facere
+                                    perspiciatis inventore suscipit sit in quo nesciunt reprehenderit officiis
+                                    voluptatum
+                                    impedit, consequatur saepe beatae molestias nisi delectus illo voluptatem.
+                                    Voluptatibus
+                                    libero harum eos doloribus nulla atque quisquam obcaecati sed cum? Lorem
+
+
+
+
+                                </p>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- -------------btn4 content  -->
+                <div class="row justify-content-center content " id="content4">
+                    <!-- //video play block  -->
+                    <div class="col-md-6">
+                        <div class="card videoPlayBox content-4-img">
+                            <div><img src="assets/images/play-circle.png" class="fluid-img playIcon" alt=""></div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="VideoData">
+                            <div>
+                                <p class="text-start videoTitle">MyLab 1 Application</p>
+                            </div>
+                            <div>
+                                <p class="text-start videoDes">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium facere
+                                    perspiciatis inventore suscipit sit in quo nesciunt reprehenderit officiis
+                                    voluptatum
+                                    impedit, consequatur saepe beatae molestias nisi delectus illo voluptatem.
+                                    Voluptatibus
+                                    libero harum eos doloribus nulla atque quisquam obcaecati sed cum? Lorem
+
+
+
+
+                                </p>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- -------------btn5 content  -->
+                <div class="row justify-content-center content " id="content5">
+                    <!-- //video play block  -->
+                    <div class="col-md-6">
+                        <div class="card videoPlayBox content-5-img">
+                            <div><img src="assets/images/play-circle.png" class="fluid-img playIcon" alt=""></div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="VideoData">
+                            <div>
+                                <p class="text-start videoTitle">MyLab2 Application</p>
+                            </div>
+                            <div>
+                                <p class="text-start videoDes">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium facere
+                                    perspiciatis inventore suscipit sit in quo nesciunt reprehenderit officiis
+                                    voluptatum
+                                    impedit, consequatur saepe beatae molestias nisi delectus illo voluptatem.
+                                    Voluptatibus
+                                    libero harum eos doloribus nulla atque quisquam obcaecati sed cum? Lorem
+
+
+
+
+                                </p>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                </div>
+
 
 
 
@@ -175,7 +319,28 @@
 
 
 
+    <script>
+        function showContent(contentNum) {
+            // hide all content divs
+            var contentDivs = document.querySelectorAll('.content');
+            contentDivs.forEach(function (contentDiv) {
+                contentDiv.classList.remove('activeContent');
+            });
 
+            // show selected content div
+            var selectedContent = document.getElementById('content' + contentNum);
+            selectedContent.classList.add('activeContent');
+
+            // remove active class from all buttons
+            var btns = document.querySelectorAll('.unselected');
+            btns.forEach(function (btn) {
+                btn.classList.remove('active');
+            });
+
+            var selectedBtn = document.querySelector('#btn' + contentNum);
+            selectedBtn.classList.add('active');
+        }
+    </script>
 
 
 
