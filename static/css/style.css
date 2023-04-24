@@ -33,7 +33,15 @@ body {
     margin-right: 30px;   
 }
 
-.headingText{
+.headingTextDiv{
+    
+    
+    
+}
+.headingText{   
+    align-items: center;
+   
+    margin:auto;
     position: relative;
     bottom: 30px;
     font-weight: bolder;
@@ -44,6 +52,8 @@ body {
     border: 1px solid red;
 }
 .headingMidText{
+    
+   
    padding-left: 55px;
    padding-right: 55px;
     
@@ -390,14 +400,14 @@ font-size: 20px;
        }
 .headingText{
    
-    width: 90%;
+    /* width: 90%; */
     margin: auto;
     font-size: 22px;
 }
 .headingMidText{
     
     margin: auto;
-    width: 380px;       
+    width: auto;       
     font-size: 15px;
     margin-bottom: 50px;
 }
