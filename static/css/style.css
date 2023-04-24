@@ -454,12 +454,12 @@ font-size: 20px;
     padding-left: 10px;
     padding-right: 0px;
     font-size: 12px !important    ;
-    height: 40px;
+    height: 40px !important;
 }
 
 #emailSubmitBtn{
     color: white;
-    height: 40px;
+    height: 40px !important;
     padding: 12px;
     width: 100%;
     font-size: 12px !important;
