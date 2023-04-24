@@ -36,6 +36,10 @@ body {
     background-size: cover; 
     background-image: url("../../assets/images/bg-5.png");
 }
+.content-6-img{
+    background-size: cover; 
+    background-image: url("../../assets/images/bg-6.png");
+}
 
 .mobileBannerImg{
     display: none;
@@ -125,7 +129,7 @@ border: 0px solid white;
 .btnRow{
    
     display: flex !important;
-        gap:3% ;
+        gap:2% ;
         
     
     margin-left:57px ;
@@ -170,7 +174,7 @@ border: 0px solid white;
     width: 196px;
     background: #DBDBDB;
     font-size: 16px;
-    padding: 21px 50px;
+    padding: 18px 18px;
      border: 0px solid white;
     border-radius: 10px;
 }
@@ -283,12 +287,11 @@ color: white;
    
     
     .inputPlusBtn{
-        
-     
+             
         justify-content: center !important;
         gap: 14px !important;
-        margin-left: 4px;
-        margin-right: 4px;
+        margin-left: 25px !important;
+        margin-right: 25px !important;
     }
    
 
@@ -443,20 +446,21 @@ font-size: 20px;
     font-size: 15px;
     margin-bottom: 50px;
 }
+
 #emailInput{
     
     width: 100%;
     padding-left: 10px;
     padding-right: 0px;
     font-size: 12px !important    ;
-    height: 50px;
+    height: 45px;
 }
 
 #emailSubmitBtn{
-    height: 50px;
-    padding: 15px;
+    height: 45px;
+    padding: 14px;
     width: 100%;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 
