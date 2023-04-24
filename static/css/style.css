@@ -284,9 +284,11 @@ color: white;
     
     .inputPlusBtn{
         
-        gap:14px !important;
+     
         justify-content: center !important;
         gap: 14px !important;
+        margin-left: 4px;
+        margin-right: 4px;
     }
    
 
