@@ -175,6 +175,7 @@ border: 0px solid white;
 }
 .innnerAboutBlock{
     margin-left: 56px;
+    margin-right: 39px;
     padding-top: 51px;
     margin-bottom: 84px;
     
@@ -231,14 +232,18 @@ color: white;
    }
 
 @media (max-width: 768px) {
-    .bodyWithNoFooter{        
-        margin-left: 0px;
-        margin-right: 0px;
-       }
-    .mainDiv{
-        margin-left: 0px !important;
-        margin-right: 0px !important;
+    *{
+        margin-left: 0 ;
+        margin-right: 0 !important;
     }
+   
+    .bodyWithNoFooter{        
+        margin-left: 0;
+        margin-right: 0 !important;
+        
+       }
+      
+   
     
     .inputPlusBtn{
         
