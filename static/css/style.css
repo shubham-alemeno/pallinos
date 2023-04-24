@@ -55,7 +55,7 @@ body {
 }
 
 #emailInput{
-    width: 400px;
+    width: 370px;
     background: #F7FFEF;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 10px;
@@ -185,9 +185,11 @@ border: 0px solid white;
     font-size: 36px;
 }
 
-.aboutDes{
-    margin-top: 30px;
-width: 750px;
+.aboutDes{   
+   text-align: start;
+     margin-top: 30px;
+     /* margin-left: -24px; */
+/* width: 750px; */
     font-weight: 400;
     font-size: 22px;
 
@@ -216,7 +218,34 @@ font-size: 24px;
 color: white;
 }
 
+.aboutImg{
+
+    width:382.53px;
+    height: 262.7px;
+   }
+
+   .inputPlusBtn{
+    display: flex;
+    justify-content: center;
+    gap:17px
+   }
+
 @media (max-width: 768px) {
+    .bodyWithNoFooter{        
+        margin-left: 0px;
+        margin-right: 0px;
+       }
+    .mainDiv{
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+    
+    .inputPlusBtn{
+        
+        gap:14px !important;
+        justify-content: center !important;
+        gap: 14px !important;
+    }
    
 
     .mobileBannerImg{
@@ -242,10 +271,8 @@ color: white;
 
 
     /* ----- */
-    .bodyWithNoFooter{
-        margin-left: 0px;
-        margin-right: 0px;
-       }
+   
+
        .followIcon{
         display: flex;
         justify-content: start !important;
@@ -285,7 +312,7 @@ margin: 25px 25px;
         border: 0px white solid;
         padding-left: 25px;
         padding-right: 25px;
-      
+      margin-bottom: 45px;
         padding-bottom: 50px;
         
     }
@@ -363,30 +390,26 @@ font-size: 20px;
     font-size: 22px;
 }
 .headingMidText{
+    
     margin: auto;
-    width: 90%;
-       
+    width: 380px;       
     font-size: 15px;
     margin-bottom: 50px;
 }
 #emailInput{
     
-    width: 100%;
+    width: 218px;
     padding-left: 10px;
     padding-right: 0px;
-    font-size: 12px !important
-    ;
+    font-size: 12px !important    ;
     height: 50px;
 }
 
 #emailSubmitBtn{
     height: 50px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 8px;
-    padding-right: 8px;
-    width: auto;
-    font-size: 10px;
+    padding: 15px;
+    width: 100%;
+    font-size: 14px;
 }
 
 
