@@ -132,7 +132,7 @@ body {
     margin:auto;
     position: relative;
     bottom: 30px;
-    font-weight: bolder;
+    font-weight: bold;
     font-size: 40px;
 }
 
@@ -147,7 +147,7 @@ body {
     
     color: #3D3D3D;
     align-items: center;
-    font-weight: 500;
+    font-weight: bold;
     font-size: 22px;
     margin-bottom: 50px;
 }
