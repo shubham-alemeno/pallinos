@@ -8,6 +8,13 @@ body {
     padding-right: 0;
    
 }
+.imgDivAbout{
+    position: relative;
+    bottom:40px
+}
+.divBorder{
+    border: 1px solid red ;
+}
 
 .success-img{
     height: 150px;
@@ -281,7 +288,7 @@ border: 0px solid white;
 }
 
 .aboutDesBlock{
-    padding-bottom: 60px;
+    padding-bottom: 40px;
 }
 
 .footerBlock{
@@ -319,6 +326,13 @@ color: white;
 }
 
 @media (max-width: 768px) {
+    .aboutDesBlock{
+        padding-bottom: 70px;
+    }
+    .imgDivAbout{
+        position: relative;
+        bottom:0px
+    }
 
     .error-msg{
         
