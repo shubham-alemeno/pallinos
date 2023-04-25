@@ -10,7 +10,7 @@ body {
 }
 .imgDivAbout{
     position: relative;
-    bottom:40px
+    bottom:60px
 }
 .divBorder{
     border: 1px solid red ;
@@ -271,7 +271,7 @@ border: 0px solid white;
     
 }
 .aboutHead{
-    margin-bottom: 32px;
+    margin-bottom: 0px;
     font-weight: 600;
     font-size: 36px;
 }
@@ -288,7 +288,7 @@ border: 0px solid white;
 }
 
 .aboutDesBlock{
-    padding-bottom: 40px;
+    padding-bottom: 20px;
 }
 
 .footerBlock{
@@ -417,6 +417,7 @@ margin: 25px 25px;
        }
 
     .aboutHead{
+        margin-bottom: 32px;
         font-size: 20px;
         /* margin-bottom: 20px; */
     }
