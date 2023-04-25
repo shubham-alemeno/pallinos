@@ -130,10 +130,10 @@ border: 0px solid white;
 .btnRow{
    
     display: flex !important;
-        gap:2% ;
-        
-    
+    flex-wrap: wrap;
+    gap:18px;            
     margin-left:57px ;
+    margin-right:57px ;
     margin-bottom: 80px;
 
 }
@@ -176,7 +176,7 @@ border: 0px solid white;
     background: #DBDBDB;
     font-size: 16px;
     padding: 18px 18px;
-     border: 0px solid white;
+    border: 0px solid white;
     border-radius: 10px;
 }
 
@@ -390,9 +390,11 @@ font-size: 20px;
 
     .btnRow{
         flex-wrap: wrap;
-        gap:auto ;
-     margin-bottom: 50px;
+        gap:12px ;
+        margin-bottom: 50px;
+        padding: 0;
         margin-left:0px !important ;
+        margin-right: 0px !important;
        
     }
 
@@ -404,7 +406,7 @@ font-size: 20px;
         
     }
     .unselected{
-        margin-bottom: 10px;
+        /* margin-bottom: -0px; */
         width: auto;         
         padding: 12px 24px;
         font-size: 11px;
