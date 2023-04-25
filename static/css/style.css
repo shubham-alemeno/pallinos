@@ -175,8 +175,8 @@ border: 0px solid white;
 .btnRow{
    
     display: flex !important;
-    
-    gap:15px;            
+    justify-content: space-around;    
+    /* gap:15px;             */
     margin-left:57px ;
     margin-right:50px ;
     margin-bottom: 80px;
@@ -449,6 +449,7 @@ font-size: 20px;
     }
 
     .btnRow{
+        justify-content: start; 
         flex-wrap: wrap;
         gap:12px ;
         margin-bottom: 50px;
