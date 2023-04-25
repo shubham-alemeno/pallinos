@@ -48,8 +48,14 @@
                     <div class="inputPlusBtn">
                         <div> <input type="email" class="form-control" id="emailInput" aria-describedby="emailHelp"
                                 placeholder="Enter your email"></div>
-                        <div><button type="submit" id="emailSubmitBtn">Request
+
+                        <div><button type="submit" id="emailSubmitBtn" onclick="emailSubmit()">Request
                                 Demo</button></div>
+                    </div>
+                    <div class="text-center mt-2">
+                        <p class="error-msg">
+                            Enter valid Email ID
+                        </p>
                     </div>
                 </div>
                 <div class="bannerImgDes imgDiv">
@@ -337,7 +343,31 @@
                 </div>
             </div>
         </footer>
+        <!-- --------------- thansk box  -->
+        <div class="backgroundTheme">
 
+            <div class="form-thanks row justify-content-center rounded card pb-3">
+                <div class="row mt-1  ms-1 cut-btn-icon2">
+                    <div class="col-11"></div>
+                    <div class="col-1 "> <img id="cut-btn" class="fluid-img " src="assets/images/cutIcon.svg" alt="">
+                    </div>
+                </div>
+                <div class="row justify-content-center mt-5">
+                    <img class="success-img" src="assets/images/success-img.jpg" alt="">
+                </div>
+                <div class="form-padding form-margin mb-4">
+                    <div class="row justify-content-center">
+                        <h2 class="form-heading text-center ">Thank you!</h2>
+                        <center>
+                            <p>Our team will get in touch with you</p>
+                        </center>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        <!-- -------------- -->
 
     </div>
 
@@ -346,7 +376,46 @@
 
 
 
+
     <script>
+        //email submit handler 
+        function emailSubmit() {
+            var emailData = document.getElementById('emailInput').value;
+
+
+            if (!(emailData.includes('@') && emailData.includes('.'))) {
+                document.querySelector(".error-msg").style.display = "block";
+            } else {
+                document.querySelector(".error-msg").style.display = "none";
+                document.querySelector(".backgroundTheme").style.display = "block";
+                //post request - to server 
+                var url = "https://alemeno.com/main-landing-page-save-mobile_num";
+
+                fetch(url, {
+                    method: 'POST',
+                    body: JSON.stringify({ "email": emailData }),
+                    headers: {
+                        'Content-Type': 'application/json'
+                    }
+                })
+                    .then(response => response.json())
+                    .then(data => {
+                        console.log(data.success);  // Prints "Success!"
+                    })
+                    .catch(error => console.error(error));
+                document.querySelector(".form-thanks").style.display = "block";
+            }
+
+        }
+
+        document.querySelector("#cut-btn").addEventListener('click', () => {
+
+            document.querySelector(".form-thanks").style.display = "none";
+            document.querySelector(".backgroundTheme").style.display = "none";
+
+        })
+
+
         function showContent(contentNum) {
             // hide all content divs
             var contentDivs = document.querySelectorAll('.content');
