@@ -130,10 +130,10 @@ border: 0px solid white;
 .btnRow{
    
     display: flex !important;
-    flex-wrap: wrap;
-    gap:18px;            
+    
+    gap:15px;            
     margin-left:57px ;
-    margin-right:57px ;
+    margin-right:50px ;
     margin-bottom: 80px;
 
 }
@@ -174,8 +174,8 @@ border: 0px solid white;
     font-weight: bolder;
     width: 196px;
     background: #DBDBDB;
-    font-size: 16px;
-    padding: 18px 18px;
+    font-size: 15px;
+    padding: 17px 17px;
     border: 0px solid white;
     border-radius: 10px;
 }
