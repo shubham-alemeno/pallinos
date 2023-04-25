@@ -167,6 +167,7 @@ body {
 
 
 #emailSubmitBtn{
+    font-weight: bold;
     color: white;
     height: 71px;
     font-size: 16px;
@@ -530,13 +531,13 @@ font-size: 20px;
     padding-left: 10px;
     padding-right: 0px;
     font-size: 12px !important    ;
-    height: 40px !important;
+    height: 50px !important;
 }
 
 #emailSubmitBtn{
     color: white;
-    height: 40px !important;
-    padding: 12px;
+    height: 50px !important;
+    padding: 15px;
     width: 120px;
     font-size: 12px !important;
 }
