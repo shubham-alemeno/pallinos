@@ -8,6 +8,9 @@ body {
     padding-right: 0;
    
 }
+.followIcon{
+    display: none;
+}
 .imgDivAbout{
     position: relative;
     bottom:51px
@@ -305,6 +308,7 @@ height: 35.57px;
 }
 
 .followText{
+    display: none;
     font-weight: 500;
 font-size: 24px;
 color: white;
@@ -500,6 +504,7 @@ font-size: 20px;
     }
 
     .footerIcon{
+        display: none;
         height: 29px;
         width: 29px;
     }
