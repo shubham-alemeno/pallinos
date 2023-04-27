@@ -8,6 +8,10 @@ body {
     padding-right: 0;
    
 }
+
+.playIconDiv{
+    display: none;
+}
 .followIcon{
     display: none;
 }
@@ -464,6 +468,7 @@ font-size: 20px;
         font-size: 14px;
     }
     .playIcon{
+        
         height: 35px;
         width: 35px;
     }
