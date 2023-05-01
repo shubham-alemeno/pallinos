@@ -97,27 +97,33 @@ body {
 
 .content-1-img{
     background-size: cover; 
+    background-position: center;
     background-image: url("../../assets/images/bg-1.png");
 }
 
 .content-2-img{
     background-size: cover; 
+    background-position: center;
     background-image: url("../../assets/images/bg-2.png");
 }
 .content-3-img{
     background-size: cover; 
+    background-position: center;
     background-image: url("../../assets/images/bg-3.png");
 }
 .content-4-img{
     background-size: cover; 
+    background-position: center;
     background-image: url("../../assets/images/bg-4.png");
 }
 .content-5-img{
     background-size: cover; 
+    background-position: center;
     background-image: url("../../assets/images/bg-5.png");
 }
 .content-6-img{
     background-size: cover; 
+    background-position: center;
     background-image: url("../../assets/images/bg-6.png");
 }
 
@@ -212,7 +218,7 @@ border: 0px solid white;
    
     display: flex !important;
     justify-content: space-around;    
-    /* gap:15px;             */
+    gap:15px;            
     margin-left:57px ;
     margin-right:50px ;
     margin-bottom: 80px;
@@ -501,7 +507,8 @@ margin: 25px 25px;
         width: 100% !important;
         margin-left: 0px;
         margin-right: 0px;
-        height: 199px;
+        height: 200px;
+        width: 100%;
         
         
     }
@@ -526,7 +533,7 @@ font-size: 20px;
     .btnRow{
         justify-content: start; 
         flex-wrap: wrap;
-        gap:12px ;
+        gap:auto ;
         margin-bottom: 50px;
         padding: 0;
         margin-left:0px !important ;
