@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 body {
+    background-color: #FCFFF9;
     font-family: 'Poppins', sans-serif;
     margin-top: 30px;
     margin-left: 0;
@@ -9,8 +10,14 @@ body {
    
 }
 
+.address-div{
+    /* border: red solid 1px ; */
+    padding-left: 90px;
+}
+
 .footer-logo-div{
     /* margin-left: 38px; */
+
    
 }
 
@@ -357,6 +364,10 @@ color: white;
 
 
 @media (max-width: 768px) {
+    .address-div{
+        
+        padding-left: 10px;
+    }
     .footerMainDiv{
         font-size: 14px;
     }
