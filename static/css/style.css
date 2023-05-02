@@ -215,11 +215,11 @@ border: 0px solid white;
 }
 
 .btnRow{
-   
+    flex-wrap: wrap;
     display: flex !important;
     justify-content: space-around;    
     gap:15px;            
-    margin-left:57px ;
+    margin-left:50px ;
     margin-right:50px ;
     margin-bottom: 80px;
 
@@ -241,6 +241,7 @@ border: 0px solid white;
     box-shadow: 0px 4px 12px rgba(134, 198, 77, 0.24);
     border-radius: 10px;
     padding: 21px 50px;
+    width: 200px;
     font-size: 16px;
     color: white;
     border: 0px solid white;
@@ -258,8 +259,9 @@ border: 0px solid white;
 
 
 .unselected{
+
     font-weight: bolder;
-    /* width: 100%; */
+    width: 200px;
     background: #DBDBDB;
     font-size: 15px;
     padding: 17px 50px;
